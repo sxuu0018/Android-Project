@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".FindMyLocation"
+            android:theme="@style/Theme.NavigationJava.NoActionBar"></activity>
+        <activity
+            android:name=".ViewPage"
+            android:theme="@style/Theme.NavigationJava.NoActionBar"></activity>
+        <activity
+            android:name=".LineChart"
+            android:theme="@style/Theme.NavigationJava.NoActionBar" />
+        <activity
+            android:name=".stepsPie"
+            android:theme="@style/Theme.NavigationJava.NoActionBar" />
+        <activity
+            android:name=".PositionPie"
+            android:theme="@style/Theme.NavigationJava.NoActionBar" />
+        <activity
+            android:name=".TimePicker"
+            android:theme="@style/Theme.NavigationJava.NoActionBar" />
+        <activity
+            android:name=".PainDataEntry"
+            android:theme="@style/Theme.NavigationJava.NoActionBar" />
+        <activity
+            android:name=".Map"
+            android:theme="@style/Theme.NavigationJava.NoActionBar" />
+        <activity
+            android:name=".Weather"
+            android:theme="@style/Theme.NavigationJava.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/Theme.NavigationJava.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:theme="@style/Theme.NavigationJava.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.NavigationJava.NoActionBar" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+</manifest>

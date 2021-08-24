@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="mapbox_access_token">pk.eyJ1Ijoic2lqaWF4dSIsImEiOiJja256aWIwemowMDEwMnBwaDUzNjJ0cHBsIn0.w2cDRo8970JjJH_A6ywKeQ</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
